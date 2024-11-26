@@ -21,6 +21,11 @@
                     "color": "#F9FBF2",
                     "name": "Terziario",
                     "slug": "terziario"
+                },
+                {
+                    "color": "#00000",
+                    "name": "Quarto",
+                    "slug": "quarto"
                 }
             ]             
         },
@@ -29,45 +34,54 @@
             {
                 "fontFace": [
                     {
-                        "fontFamily": "Albert Sans",
+                        "fontFamily": "Poppins",
                         "fontStyle": "normal",
                         "fontWeight": "100",
                         "src": [
-                            "file:./assets/fonts/albert-sans/AlbertSans-Thin.woff",
-                            "file:./assets/fonts/albert-sans/AlbertSans-Thin.woff2"
+                            "file:./assets/fonts/poppins/Poppins-Light.woff",
+                            "file:./assets/fonts/poppins/Poppins-Light.woff2"
                         ]
                     },
                     {
-                        "fontFamily": "Albert Sans",
+                        "fontFamily": "Poppins",
                         "fontStyle": "normal",
                         "fontWeight": "400",
                         "src": [
-                            "file:./assets/fonts/albert-sans/AlbertSans-Regular.woff",
-                            "file:./assets/fonts/albert-sans/AlbertSans-Regular.woff2"
+                            "file:./assets/fonts/poppins/Poppins-Regular.woff",
+                            "file:./assets/fonts/poppins/Poppins-Regular.woff2"
                         ]
                     },
                     {
-                        "fontFamily": "Albert Sans",
+                        "fontFamily": "Poppins",
                         "fontStyle": "normal",
                         "fontWeight": "500",
                         "src": [
-                            "file:./assets/fonts/albert-sans/AlbertSans-Medium.woff",
-                            "file:./assets/fonts/albert-sans/AlbertSans-Medium.woff2"
+                            "file:./assets/fonts/poppins/Poppins-Medium.woff",
+                            "file:./assets/fonts/poppins/Poppins-Medium.woff2"
                         ]
                     },
                     {
-                        "fontFamily": "Albert Sans",
+                        "fontFamily": "Poppins",
+                        "fontStyle": "normal",
+                        "fontWeight": "600",
+                        "src": [
+                            "file:./assets/fonts/poppins/Poppins-SemiBold.woff",
+                            "file:./assets/fonts/poppins/Poppins-SemiBold.woff2"
+                        ]
+                    },
+					{
+                        "fontFamily": "Poppins",
                         "fontStyle": "normal",
                         "fontWeight": "700",
                         "src": [
-                            "file:./assets/fonts/albert-sans/AlbertSans-Bold.woff",
-                            "file:./assets/fonts/albert-sans/AlbertSans-Bold.woff2"
+                            "file:./assets/fonts/poppins/Poppins-Bold.woff",
+                            "file:./assets/fonts/poppins/Poppins-Bold.woff2"
                         ]
                     }
                 ],
-                "fontFamily": "Albert Sans",
-                "name": "Albert Sans",
-                "slug": "albertsans"
+                "fontFamily": "Poppins",
+                "name": "Poppins",
+                "slug": "poppins"
             }
             ],
             "fluid": true,
@@ -115,38 +129,39 @@
                 "vw",
                 "%"
             ],
+            "defaultSpacingSizes": false,
             "margin": true,
             "padding": true,
-            "defaultSpacingSizes": false,
+			"blockGap": null,
             "spacingSizes": [
                 {
                     "name": "XS",
-                    "size": "font-size: clamp(1rem, 0.75rem + 0.6667vw, 1.25rem);",
+                    "size": "clamp(1rem, 0.75rem + 0.6667vw, 1.25rem);",
                     "slug": "10"
                 },
                 {
                     "name": "S",
-                    "size": "font-size: font-size: clamp(1.25rem, 1rem + 0.6667vw, 1.5rem);",
+                    "size": "clamp(1.25rem, 1rem + 0.6667vw, 1.5rem);",
                     "slug": "20"
                 },
                 {
                     "name": "M",
-                    "size": "font-size: clamp(1.5rem, 1.25rem + 0.6667vw, 1.75rem);",
+                    "size": "clamp(1.5rem, 1.25rem + 0.6667vw, 1.75rem);",
                     "slug": "30"
                 },
                 {
                     "name": "L",
-                    "size": "font-size: clamp(1.75rem, 1.5rem + 0.6667vw, 2rem);",
+                    "size": "clamp(1.75rem, 1.5rem + 0.6667vw, 2rem);",
                     "slug": "40"
                 },
                 {
                     "name": "XL",
-                    "size": "font-size: clamp(2rem, 1.75rem + 0.6667vw, 2.25rem);",
+                    "size": "clamp(2rem, 1.75rem + 0.6667vw, 2.25rem);",
                     "slug": "50"
                 },
                 {
                     "name": "XXL",
-                    "size": "font-size: clamp(2.25rem, 2rem + 0.6667vw, 2.5rem);",
+                    "size": "clamp(2.25rem, 2rem + 0.6667vw, 2.5rem);",
                     "slug": "60"
                 }
             ]
@@ -154,9 +169,10 @@
     },
     "styles": {
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--albertsans)",
+            "fontFamily": "var(--wp--preset--font-family--poppins)",
             "fontStyle": "normal",
             "fontWeight": "400"
         }
     }
+	
 }

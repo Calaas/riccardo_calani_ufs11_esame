@@ -1,0 +1,177 @@
+.carousel-no-arrow .slick-arrow {
+    display: none !important;
+}
+/* Stile del contenitore principale */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Occupa l'intera altezza della finestra */
+    overflow: hidden;
+}
+
+/* Stile per le slide all'interno del carosello */
+.carousel-container .slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Stile per le immagini */
+.carousel-container .slick-slide img {
+    width: 100%; /* L'immagine occupa l'intera larghezza dello schermo */
+    height: 100%; /* L'immagine occupa l'intera altezza del contenitore */
+    object-fit: cover; /* Adatta l'immagine per coprire l'intero contenitore */
+}
+
+/* Stile per le frecce del carosello */
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+/* Posizione della freccia sinistra */
+.slick-prev {
+    left: 10px;
+}
+
+/* Posizione della freccia destra */
+.slick-next {
+    right: 10px;
+}
+
+/* Modifiche al passaggio del mouse sulle frecce */
+.slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.slick-slide.wp-block-cover {
+    min-height: 100vh;
+}
+
+.slick-slide.wp-block-cover .wp-block-cover__inner-container {
+    position: relative;
+}
+
+/* Stile per le frecce */
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
+    color: white;
+    border: none;
+    padding: 2vw;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%; /* Forma circolare */
+    font-size: 20px; /* Dimensione dell’icona */
+    transition: background-color 0.3s;
+}
+
+/* Posizione della freccia sinistra */
+.slick-prev {
+    left: 10px;
+}
+
+/* Posizione della freccia destra */
+.slick-next {
+    right: 10px;
+}
+
+/* Hover sulle frecce per scurire lo sfondo */
+.slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Stile per i pallini */
+.slick-dots {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Stile per ogni pallino */
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5); /* Colore iniziale */
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stile per il pallino attivo */
+.slick-dots li.slick-active button {
+    background-color: rgba(255, 255, 255, 1); /* Colore pieno per il pallino attivo */
+}
+
+.carousel-container .slick-slide {
+    display: flex;
+    align-items: center;     /* Centra verticalmente il contenuto */
+    justify-content: center; /* Centra orizzontalmente il contenuto */
+    text-align: center;      /* Centra il testo */
+    height: 100%;
+    color: white;            /* Colore del testo (modifica a piacere) */
+    padding: 20px;           /* Spazio interno per il testo */
+}
+
+.carousel-container .slick-slide {
+    display: flex;
+    align-items: center;     /* Centra verticalmente */
+    justify-content: center; /* Centra orizzontalmente */
+    height: 100%;            /* Riempe l'altezza del contenitore */
+    text-align: center;
+}
+
+/* Stile per centrare verticalmente e orizzontalmente il testo all'interno del contenitore */
+.wp-block-cover__inner-container {
+    display: flex;
+    align-items: center;     /* Centra verticalmente */
+    justify-content: center; /* Centra orizzontalmente */
+    height: 100%;            /* Occupa l'intera altezza del contenitore */
+    text-align: center;      /* Centra il testo */
+}
+
+
+
+/* Forza il centramento verticale e orizzontale del contenitore */
+.wp-block-cover__inner-container {
+    display: flex !important;
+    align-items: center !important;     /* Centra verticalmente */
+    justify-content: center !important; /* Centra orizzontalmente */
+    height: 100vh !important;           /* Occupa l'intera altezza della finestra */
+    text-align: center;
+}
+
+/* Stile per il testo */
+.has-text-align-center {
+    margin: 0 !important; /* Rimuove eventuali margini */
+}
+
+.has-large-font-size {
+
+    color: white !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+}

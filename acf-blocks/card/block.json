@@ -1,0 +1,24 @@
+{
+    "apiVersion": 2,
+    "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+    "name": "acf/card",
+    "title": "Card",
+    "description": "blocco personalizzabile che permette di inserire la card",
+    "category": "media",
+    "keywords": [
+        "Card",
+        "card"
+    ],
+    "acf": {
+        "renderTemplate": "card-template.php",
+        "mode": "preview"
+    },
+    "style": [
+        "card"
+    ],
+    "supports": { 
+        "inserter": true,
+        "jsx": true,
+        "multiple": true
+    }
+}

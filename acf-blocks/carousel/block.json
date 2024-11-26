@@ -1,0 +1,29 @@
+{
+    "apiVersion": 2,
+    "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+    "name": "acf/carousel",
+    "title": "Carosello",
+    "description": "blocco personalizzabile che permette di inserire il carosello",
+    "category": "media",
+    "keywords": [
+        "carousel",
+        "carosello"
+    ],
+    "acf": {
+        "renderTemplate": "carousel-template.php",
+        "mode": "preview"
+    },
+    "style": [
+        "slick",
+        "carousel"
+    ],
+    "script": [
+        "slick",
+        "carousel"
+    ],
+    "supports": { 
+        "inserter": true,
+        "jsx": true,
+        "multiple": true
+    }
+}

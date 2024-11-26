@@ -1,0 +1,22 @@
+{
+    "apiVersion": 2,
+    "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+    "name": "acf/accordion",
+    "title": "fisarmonica",
+    "description": "blocco personalizzabile che permette di inserire la card",
+    "category": "desogn",
+    "keywords": [
+        "accordion",
+        "Accordion"
+    ],
+    "acf": {
+        "renderTemplate": "accordion-template.php",
+        "mode": "edit"
+    },
+    "style": [
+        "accordion"
+    ],
+    "supports": { 
+        "multiple": true
+    }
+}
