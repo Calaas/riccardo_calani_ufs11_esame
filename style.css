@@ -2,3 +2,72 @@ header block-editor-rich-text__editable wp-block-button__link has-terziario-colo
     margin-left: 15px;
     margin-right: 15px;
 }
+.button1{
+    border-color: #373636;
+
+}
+.wp-block-button.is-style-outline--1 .wp-block-button__link {
+    border-color: #373636; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Stile quando il mouse è sopra il bottone */
+.wp-block-button.is-style-outline--1 .wp-block-button__link:hover {
+    background-color: #373636;
+    color:#F9FBF2 !important; 
+}
+
+.wp-block-button.is-style-outline--2 .wp-block-button__link{
+    border-color: #E5A726; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wp-block-button.is-style-outline--2 .wp-block-button__link:hover{
+    background-color: #E5A726;
+    color:#373636 !important;  
+}
+
+.wp-block-button.is-style-outline--6 .wp-block-button__link {
+    border-color: #373636; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Stile quando il mouse è sopra il bottone */
+.wp-block-button.is-style-outline--6 .wp-block-button__link:hover {
+    background-color: #373636;
+    color:#F9FBF2 !important; 
+}
+
+.wp-block-button.is-style-outline--7 .wp-block-button__link {
+    border-color: #373636; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Stile quando il mouse è sopra il bottone */
+.wp-block-button.is-style-outline--7 .wp-block-button__link:hover {
+    background-color: #373636;
+    color:#F9FBF2 !important; 
+}
+
+.wp-block-button.is-style-outline--8 .wp-block-button__link {
+    border-color: #373636; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Stile quando il mouse è sopra il bottone */
+.wp-block-button.is-style-outline--8 .wp-block-button__link:hover {
+    background-color: #373636;
+    color:#F9FBF2 !important; 
+}
+
+.wp-block-media-text__media img{
+    width:50%
+}
+.wp-block-media-text>.wp-block-media-text__content{
+    padding:0
+}

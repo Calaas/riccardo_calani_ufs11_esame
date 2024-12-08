@@ -28,7 +28,7 @@
 }
 
 .accordion-label::after{
-    content: '\267f';
+    content: '\002B';
     width: 1em;
     height: 1em;
     text-align: center;
