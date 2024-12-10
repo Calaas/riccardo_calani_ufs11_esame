@@ -8,7 +8,7 @@
             "defaultPalette": false,
             "palette": [
                 {
-                    "color": "#373636",
+                    "color": "#1e1e1e",
                     "name": "Primario",
                     "slug": "primary"
                 },
